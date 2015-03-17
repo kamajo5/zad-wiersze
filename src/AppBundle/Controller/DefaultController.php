@@ -236,6 +236,14 @@ public function hymnAction()
     {
         return $this->render('default/rzepka.html.twig');
     }
+    
+    /**
+     * @Route("/oda-do-radosci.html", name="oda-do-radosci")
+     */
+    public function odadoradosciAction()
+    {
+        return $this->render('default/oda-do-radosci.html.twig');
+    }
 
     /*
      * S
